@@ -1,0 +1,23 @@
+This is all about application-wide state.
+The purpose of this project was to show notifications in the following situations:
+
+- When submitting an email to newsletter registration, show pending and then success notification
+- When submitting a comment, show pending then success
+- Show loading when loading comments
+
+Key files here are:
+
+- noticiation-context.js
+- notification.js
+- \_app.js
+- layout.js
+- comments.js
+- newsletter-registration.js
+
+We start by writing our notification-context.js file, which will create the context that the app will use.
+
+Then we go to \_app.js, and wrap the whole content in our context provider
+
+Then we go to layout and add the notification component itself
+
+Then we trigger the actual notification in newsletter-registration.js and comments.js

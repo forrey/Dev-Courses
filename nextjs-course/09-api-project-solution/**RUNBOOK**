@@ -1,0 +1,19 @@
+This app displays a list of events which come from the dummy-data.js file
+It also connects to a MongoDB cluster and saves:
+
+- email addresses from a newsletter registration
+- comments for each event
+
+The API routes are found in:
+
+- pages -> api
+  One is standard and only accepts POST (for newsletter emails)
+  The other is dynamic (for events) and accepts POST and GET
+
+Connection to MongoDB is done through helper functions in helpers -> db-util.js
+
+Key components to look at are:
+
+- components -> input -> newletter-registration, where we send data to the newsletter api route
+
+- components -> input -> comments.js. This is the start of our comments flow, and it sends data
