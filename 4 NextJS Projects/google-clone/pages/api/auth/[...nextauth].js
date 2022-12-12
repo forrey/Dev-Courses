@@ -12,7 +12,7 @@ export const authOptions = {
   ],
   // Here we define where the signin page is
   pages: {
-    signIn: 'auth/signin',
+    signIn: '/auth/signin',
   },
 };
 
