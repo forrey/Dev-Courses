@@ -33,6 +33,8 @@ export default function Home() {
           <button className='btn'>I'm Feeling Lucky</button>
         </div>
       </form>
+
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <footer className='absolute bottom-0 w-full text-center py-3 text-sm text-gray-600 whitespace-nowrap'>
+      <p>Copyright &copy; {new Date().getFullYear()} Forrest McKinney</p>
+    </footer>
+  );
 }
