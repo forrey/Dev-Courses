@@ -20,7 +20,7 @@ export default function SearchHeader() {
 
     if (!term) return;
 
-    router.push(`/search?${term}&searchType=`);
+    router.push(`/search?term=${term}&searchType=`);
   }
 
   return (
