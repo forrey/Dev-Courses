@@ -1,4 +1,4 @@
-export default {
+export const SEARCH_RESULTS = {
   kind: 'customsearch#search',
   url: {
     type: 'application/json',
@@ -541,6 +541,299 @@ export default {
             src: 'https://s7d2.scene7.com/is/image/PetSmart/petsmart-logo',
           },
         ],
+      },
+    },
+  ],
+};
+
+export const IMAGE_RESULTS = {
+  kind: 'customsearch#search',
+  url: {
+    type: 'application/json',
+    template:
+      'https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json',
+  },
+  queries: {
+    request: [
+      {
+        title: 'Google Custom Search - Dogs',
+        totalResults: '90390000000',
+        searchTerms: 'Dogs',
+        count: 10,
+        startIndex: 1,
+        inputEncoding: 'utf8',
+        outputEncoding: 'utf8',
+        safe: 'off',
+        cx: '57b976acafcb94e92',
+        searchType: 'image',
+      },
+    ],
+    nextPage: [
+      {
+        title: 'Google Custom Search - Dogs',
+        totalResults: '90390000000',
+        searchTerms: 'Dogs',
+        count: 10,
+        startIndex: 11,
+        inputEncoding: 'utf8',
+        outputEncoding: 'utf8',
+        safe: 'off',
+        cx: '57b976acafcb94e92',
+        searchType: 'image',
+      },
+    ],
+  },
+  context: {
+    title: 'ggl-clone',
+  },
+  searchInformation: {
+    searchTime: 0.515385,
+    formattedSearchTime: '0.52',
+    totalResults: '90390000000',
+    formattedTotalResults: '90,390,000,000',
+  },
+  items: [
+    {
+      kind: 'customsearch#result',
+      title:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlTitle:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      link: 'https://static01.nyt.com/images/2022/06/21/well/15WELL-DOGS-CALM-KIDS2/15WELL-DOGS-CALM-KIDS2-videoSixteenByNine3000-v2.jpg',
+      displayLink: 'www.nytimes.com',
+      snippet:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlSnippet:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.nytimes.com/2022/06/15/well/family/therapy-dogs-kids-stress.html',
+        height: 1686,
+        width: 3000,
+        byteSize: 467549,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqeJ7QlwQwzKBx_08XB2L9FIj54gwCflpl1IvqMChHr2HgitNk1_zDCQ&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'Dogs | Healthy Pets, Healthy People | CDC',
+      htmlTitle: '<b>Dogs</b> | Healthy Pets, Healthy People | CDC',
+      link: 'https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445',
+      displayLink: 'www.cdc.gov',
+      snippet: 'Dogs | Healthy Pets, Healthy People | CDC',
+      htmlSnippet: '<b>Dogs</b> | Healthy Pets, Healthy People | CDC',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink: 'https://www.cdc.gov/healthypets/pets/dogs.html',
+        height: 667,
+        width: 1000,
+        byteSize: 277860,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Bog4y9VAAp8elOxgScRoJpF65kNzjCJXA88wNBBsKRSsoyrljAk07w&s',
+        thumbnailHeight: 99,
+        thumbnailWidth: 149,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'Dog toys: How to pick the best and safest | The Humane Society of ...',
+      htmlTitle:
+        '<b>Dog</b> toys: How to pick the best and safest | The Humane Society of ...',
+      link: 'https://www.humanesociety.org/sites/default/files/2022-10/dogs-playing-556304.jpg',
+      displayLink: 'www.humanesociety.org',
+      snippet:
+        'Dog toys: How to pick the best and safest | The Humane Society of ...',
+      htmlSnippet:
+        '<b>Dog</b> toys: How to pick the best and safest | The Humane Society of ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink: 'https://www.humanesociety.org/resources/safe-dog-toys',
+        height: 850,
+        width: 2000,
+        byteSize: 422980,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dETfVQd2fcGrfqKJwhygP7U0Vv0w9hjrLDcB_fNL1K17Lh7IWbr70Wg&s',
+        thumbnailHeight: 64,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'These adorable puppies may help explain why dogs understand our ...',
+      htmlTitle:
+        'These adorable puppies may help explain why <b>dogs</b> understand our ...',
+      link: 'https://www.science.org/do/10.1126/science.abi5787/abs/main_puppies_1280p.jpg',
+      displayLink: 'www.science.org',
+      snippet:
+        'These adorable puppies may help explain why dogs understand our ...',
+      htmlSnippet:
+        'These adorable puppies may help explain why <b>dogs</b> understand our ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.science.org/content/article/these-adorable-puppies-may-help-explain-why-dogs-understand-our-body-language',
+        height: 720,
+        width: 1280,
+        byteSize: 532131,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVCPh5BQYpFNhNvLmZVfW4BF_ar9eA96AX0wNO6G5hPIlPmCIs6jdde4&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlTitle:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      link: 'https://static01.nyt.com/images/2022/06/21/well/15WELL-DOGS-CALM-KIDS2/15WELL-DOGS-CALM-KIDS2-mediumSquareAt3X.jpg',
+      displayLink: 'www.nytimes.com',
+      snippet:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlSnippet:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.nytimes.com/2022/06/15/well/family/therapy-dogs-kids-stress.html',
+        height: 1799,
+        width: 1800,
+        byteSize: 365468,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoq8Kx9AilhTNXehz2VraTPAgCUggZ9aEXFs56tI52j9GHfB-u-Jb6aA&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'African Wild Dog | Species | WWF',
+      htmlTitle: 'African Wild <b>Dog</b> | Species | WWF',
+      link: 'https://files.worldwildlife.org/wwfcmsprod/images/African_wild_dogs_magazine_HERO__winter_2013/hero_small/374cozwovs_wild_dogs_web.jpg',
+      displayLink: 'www.worldwildlife.org',
+      snippet: 'African Wild Dog | Species | WWF',
+      htmlSnippet: 'African Wild <b>Dog</b> | Species | WWF',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink: 'https://www.worldwildlife.org/species/african-wild-dog',
+        height: 480,
+        width: 640,
+        byteSize: 107817,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Hy-lYtuvVe1gaEj72wJIeGcUsTBLK_36HmGx8NPoGRerCdGviukQTh8&s',
+        thumbnailHeight: 103,
+        thumbnailWidth: 137,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'The Search for a Pill That Can Help Dogs—and Humans—Live Longer ...',
+      htmlTitle:
+        'The Search for a Pill That Can Help <b>Dogs</b>—and Humans—Live Longer ...',
+      link: 'https://media.wired.com/photos/636eb5510ae5a121565fd729/master/pass/WI110122_FF_ForeverDogs_2400x1350_crop.jpg',
+      displayLink: 'www.wired.com',
+      snippet:
+        'The Search for a Pill That Can Help Dogs—and Humans—Live Longer ...',
+      htmlSnippet:
+        'The Search for a Pill That Can Help <b>Dogs</b>—and Humans—Live Longer ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.wired.com/story/the-search-for-a-pill-for-dog-and-human-longevity/',
+        height: 1488,
+        width: 2400,
+        byteSize: 744318,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT7nJr4zvnTzTmxFjvYUAMMCK5XFgHFjaMQuaStUT0pBhyh48ivmE4GA&s',
+        thumbnailHeight: 93,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: "Here's a better way to convert dog years to human years ...",
+      htmlTitle:
+        'Here&#39;s a better way to convert <b>dog</b> years to human years ...',
+      link: 'https://www.science.org/do/10.1126/science.aba2340/abs/dogs_1280p_0.jpg',
+      displayLink: 'www.science.org',
+      snippet: "Here's a better way to convert dog years to human years ...",
+      htmlSnippet:
+        'Here&#39;s a better way to convert <b>dog</b> years to human years ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.science.org/content/article/here-s-better-way-convert-dog-years-human-years-scientists-say',
+        height: 720,
+        width: 1280,
+        byteSize: 150416,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8y1wbfQeofTvDKX5hLR45I3P-07u41K0ZDNLJ_3PJnNCQJf_y_aJ7Dbs&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'Dog, facts and photos',
+      htmlTitle: '<b>Dog</b>, facts and photos',
+      link: 'https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg',
+      displayLink: 'www.nationalgeographic.com',
+      snippet: 'Dog, facts and photos',
+      htmlSnippet: '<b>Dog</b>, facts and photos',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog',
+        height: 2304,
+        width: 3072,
+        byteSize: 1054441,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQib7Oagjl60pGd4xVy7E9auqAxuvtwSwAllRBYOiqRuJAn7mcxlYhi4EQ&s',
+        thumbnailHeight: 113,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlTitle:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      link: 'https://static01.nyt.com/images/2022/06/21/well/15WELL-DOGS-CALM-KIDS2/15WELL-DOGS-CALM-KIDS2-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+      displayLink: 'www.nytimes.com',
+      snippet:
+        'How Therapy Dogs Can Help Kids With Stress Relief - The New York Times',
+      htmlSnippet:
+        'How Therapy <b>Dogs</b> Can Help Kids With Stress Relief - The New York Times',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.nytimes.com/2022/06/15/well/family/therapy-dogs-kids-stress.html',
+        height: 401,
+        width: 600,
+        byteSize: 32602,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzxK6VxIgexITq0wDGus8tAogNsWWfaRGPsxEC19XF1OP6IadFW-kOdg&s',
+        thumbnailHeight: 90,
+        thumbnailWidth: 135,
       },
     },
   ],
