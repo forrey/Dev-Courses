@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Creating a Google Clone
 
-## Getting Started
+## Project overview
 
-First, run the development server:
+In this project, we created a basic Google clone with the following functionality:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Sign in with Google credentials via next-auth
+- Search using Google's custom search engine API
+- Standard or Image search
+- "I'm Feeling Lucky"
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project was style with TailwindCSS
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Authentication overview
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Used next-auth's Google Provider for sign in (see pages/api/auth/[...nextauth].js)
+- Implemented a custom sign-in page (see pages/auth/signin.js);
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Search results overview
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Searching is defined by the URL. `/search?term=<term>&searchType=`
+- searchType can be blank or "image"
+- Implemented server side rendering for search results (see pages/search.js)
+- In `getServerSideProps` we include the ability to use Mock Data (so as to not exceed the API limit).
