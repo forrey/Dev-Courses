@@ -14,3 +14,8 @@ Here's an overview of the sections and their content:
 
 - When to use and not to use type annotations
 - Explicit vs. inferred types.
+
+## 04-annotations-with-functions-and-objects
+
+- Type annotations for functions
+- Destructuring & type annotations

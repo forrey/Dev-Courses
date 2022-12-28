@@ -26,7 +26,6 @@ let point: { x: number; y: number } = {
 
 // Function
 // Note that here (i: number) is the parameters the function will accept. void is the expected output
-// Also note that the annotation here (i: number) is for the variable, not the function
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
