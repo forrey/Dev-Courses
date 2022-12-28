@@ -19,3 +19,14 @@ Here's an overview of the sections and their content:
 
 - Type annotations for functions
 - Destructuring & type annotations
+
+## 05-06-arrays-and-tuples
+
+- Annotations for arrays
+- 2 ways to annotate tuples
+
+## 07-interfaces
+
+- How to use interfaces
+- Using advanced data types and functions in interfaces
+- Making interfaces generic and re-usable
